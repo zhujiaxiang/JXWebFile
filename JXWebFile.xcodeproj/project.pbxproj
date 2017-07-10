@@ -7,14 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11087BF2AE9D43FA85943B72 /* libPods-JXWebFileDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9575C0937CA18103B194CFDA /* libPods-JXWebFileDemo.a */; };
 		6407A79D1F13566200B9E7E4 /* JXWebFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 6407A79C1F13566200B9E7E4 /* JXWebFile.h */; };
 		6407A79F1F13566200B9E7E4 /* JXWebFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A79E1F13566200B9E7E4 /* JXWebFile.m */; };
+		6407A7A81F13571A00B9E7E4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7A51F13571A00B9E7E4 /* README.md */; };
+		6407A7A91F13571A00B9E7E4 /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7A61F13571A00B9E7E4 /* CHANGELOG.md */; };
+		6407A7AE1F13577D00B9E7E4 /* JXFileCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6407A7AC1F13577D00B9E7E4 /* JXFileCache.h */; };
+		6407A7AF1F13577D00B9E7E4 /* JXFileCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7AD1F13577D00B9E7E4 /* JXFileCache.m */; };
+		6407A7B31F1357B400B9E7E4 /* SJWebFileDownloadOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6407A7B11F1357B400B9E7E4 /* SJWebFileDownloadOperation.h */; };
+		6407A7B41F1357B400B9E7E4 /* SJWebFileDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7B21F1357B400B9E7E4 /* SJWebFileDownloadOperation.m */; };
+		6407A7B81F1357D900B9E7E4 /* SJWebFileDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6407A7B61F1357D900B9E7E4 /* SJWebFileDownloader.h */; };
+		6407A7B91F1357D900B9E7E4 /* SJWebFileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7B71F1357D900B9E7E4 /* SJWebFileDownloader.m */; };
+		6407A7BC1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6407A7BA1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.h */; };
+		6407A7BD1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7BB1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.m */; };
+		6407A7C71F13591600B9E7E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7C61F13591600B9E7E4 /* main.m */; };
+		6407A7CA1F13591600B9E7E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7C91F13591600B9E7E4 /* AppDelegate.m */; };
+		6407A7CD1F13591600B9E7E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7CC1F13591600B9E7E4 /* ViewController.m */; };
+		6407A7D01F13591600B9E7E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6407A7CE1F13591600B9E7E4 /* Main.storyboard */; };
+		6407A7D21F13591600B9E7E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6407A7D11F13591600B9E7E4 /* Assets.xcassets */; };
+		6407A7D51F13591600B9E7E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6407A7D31F13591600B9E7E4 /* LaunchScreen.storyboard */; };
+		6407A7DB1F13596900B9E7E4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6407A7DA1F13596900B9E7E4 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6407A7991F13566200B9E7E4 /* libJXWebFile.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libJXWebFile.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		6407A79C1F13566200B9E7E4 /* JXWebFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXWebFile.h; sourceTree = "<group>"; };
 		6407A79E1F13566200B9E7E4 /* JXWebFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXWebFile.m; sourceTree = "<group>"; };
+		6407A7A51F13571A00B9E7E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6407A7A61F13571A00B9E7E4 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		6407A7A71F13571A00B9E7E4 /* .clang-format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".clang-format"; sourceTree = "<group>"; };
+		6407A7AC1F13577D00B9E7E4 /* JXFileCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXFileCache.h; sourceTree = "<group>"; };
+		6407A7AD1F13577D00B9E7E4 /* JXFileCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXFileCache.m; sourceTree = "<group>"; };
+		6407A7B11F1357B400B9E7E4 /* SJWebFileDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJWebFileDownloadOperation.h; sourceTree = "<group>"; };
+		6407A7B21F1357B400B9E7E4 /* SJWebFileDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJWebFileDownloadOperation.m; sourceTree = "<group>"; };
+		6407A7B61F1357D900B9E7E4 /* SJWebFileDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJWebFileDownloader.h; sourceTree = "<group>"; };
+		6407A7B71F1357D900B9E7E4 /* SJWebFileDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJWebFileDownloader.m; sourceTree = "<group>"; };
+		6407A7BA1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+CorrectedResumeData.h"; sourceTree = "<group>"; };
+		6407A7BB1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+CorrectedResumeData.m"; sourceTree = "<group>"; };
+		6407A7C31F13591600B9E7E4 /* JXWebFileDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXWebFileDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6407A7C61F13591600B9E7E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6407A7C81F13591600B9E7E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6407A7C91F13591600B9E7E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6407A7CB1F13591600B9E7E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6407A7CC1F13591600B9E7E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6407A7CF1F13591600B9E7E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6407A7D11F13591600B9E7E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6407A7D41F13591600B9E7E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6407A7D61F13591600B9E7E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6407A7DA1F13596900B9E7E4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		9575C0937CA18103B194CFDA /* libPods-JXWebFileDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXWebFileDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6854A86FB7CF1DF4F8BAB3 /* Pods-JXWebFileDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXWebFileDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXWebFileDemo/Pods-JXWebFileDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BDCA3AF31EFEEAE562FDAB39 /* Pods-JXWebFileDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXWebFileDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXWebFileDemo/Pods-JXWebFileDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,14 +68,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6407A7C01F13591600B9E7E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11087BF2AE9D43FA85943B72 /* libPods-JXWebFileDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		6407A7901F13566200B9E7E4 = {
 			isa = PBXGroup;
 			children = (
+				6407A7DA1F13596900B9E7E4 /* Podfile */,
+				6407A7A51F13571A00B9E7E4 /* README.md */,
+				6407A7A61F13571A00B9E7E4 /* CHANGELOG.md */,
+				6407A7A71F13571A00B9E7E4 /* .clang-format */,
 				6407A79B1F13566200B9E7E4 /* JXWebFile */,
+				6407A7C41F13591600B9E7E4 /* JXWebFileDemo */,
 				6407A79A1F13566200B9E7E4 /* Products */,
+				933851204427C37AC437CA82 /* Pods */,
+				A7C8E1A5E506F3DBC6F8DD98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -40,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				6407A7991F13566200B9E7E4 /* libJXWebFile.dylib */,
+				6407A7C31F13591600B9E7E4 /* JXWebFileDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -49,8 +108,81 @@
 			children = (
 				6407A79C1F13566200B9E7E4 /* JXWebFile.h */,
 				6407A79E1F13566200B9E7E4 /* JXWebFile.m */,
+				6407A7B51F1357BB00B9E7E4 /* Downloader */,
+				6407A7B01F13578800B9E7E4 /* Cache */,
+				6407A7BE1F1358C800B9E7E4 /* Category */,
 			);
 			path = JXWebFile;
+			sourceTree = "<group>";
+		};
+		6407A7B01F13578800B9E7E4 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				6407A7AC1F13577D00B9E7E4 /* JXFileCache.h */,
+				6407A7AD1F13577D00B9E7E4 /* JXFileCache.m */,
+			);
+			name = Cache;
+			sourceTree = "<group>";
+		};
+		6407A7B51F1357BB00B9E7E4 /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				6407A7B11F1357B400B9E7E4 /* SJWebFileDownloadOperation.h */,
+				6407A7B21F1357B400B9E7E4 /* SJWebFileDownloadOperation.m */,
+				6407A7B61F1357D900B9E7E4 /* SJWebFileDownloader.h */,
+				6407A7B71F1357D900B9E7E4 /* SJWebFileDownloader.m */,
+			);
+			name = Downloader;
+			sourceTree = "<group>";
+		};
+		6407A7BE1F1358C800B9E7E4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6407A7BA1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.h */,
+				6407A7BB1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		6407A7C41F13591600B9E7E4 /* JXWebFileDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6407A7C81F13591600B9E7E4 /* AppDelegate.h */,
+				6407A7C91F13591600B9E7E4 /* AppDelegate.m */,
+				6407A7CB1F13591600B9E7E4 /* ViewController.h */,
+				6407A7CC1F13591600B9E7E4 /* ViewController.m */,
+				6407A7CE1F13591600B9E7E4 /* Main.storyboard */,
+				6407A7D11F13591600B9E7E4 /* Assets.xcassets */,
+				6407A7D31F13591600B9E7E4 /* LaunchScreen.storyboard */,
+				6407A7D61F13591600B9E7E4 /* Info.plist */,
+				6407A7C51F13591600B9E7E4 /* Supporting Files */,
+			);
+			path = JXWebFileDemo;
+			sourceTree = "<group>";
+		};
+		6407A7C51F13591600B9E7E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6407A7C61F13591600B9E7E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		933851204427C37AC437CA82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC6854A86FB7CF1DF4F8BAB3 /* Pods-JXWebFileDemo.debug.xcconfig */,
+				BDCA3AF31EFEEAE562FDAB39 /* Pods-JXWebFileDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7C8E1A5E506F3DBC6F8DD98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9575C0937CA18103B194CFDA /* libPods-JXWebFileDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,6 +193,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6407A79D1F13566200B9E7E4 /* JXWebFile.h in Headers */,
+				6407A7BC1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.h in Headers */,
+				6407A7B81F1357D900B9E7E4 /* SJWebFileDownloader.h in Headers */,
+				6407A7B31F1357B400B9E7E4 /* SJWebFileDownloadOperation.h in Headers */,
+				6407A7AE1F13577D00B9E7E4 /* JXFileCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +220,26 @@
 			productReference = 6407A7991F13566200B9E7E4 /* libJXWebFile.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
+		6407A7C21F13591600B9E7E4 /* JXWebFileDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6407A7D71F13591600B9E7E4 /* Build configuration list for PBXNativeTarget "JXWebFileDemo" */;
+			buildPhases = (
+				3D400AECCC1DBFBF79D9A4E6 /* [CP] Check Pods Manifest.lock */,
+				6407A7BF1F13591600B9E7E4 /* Sources */,
+				6407A7C01F13591600B9E7E4 /* Frameworks */,
+				6407A7C11F13591600B9E7E4 /* Resources */,
+				6D4CFC2FA7CE1980E2485BEC /* [CP] Embed Pods Frameworks */,
+				4BD70C2DF170E5C38D91F556 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXWebFileDemo;
+			productName = JXWebFileDemo;
+			productReference = 6407A7C31F13591600B9E7E4 /* JXWebFileDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +254,11 @@
 						DevelopmentTeam = 3UBA29BW8P;
 						ProvisioningStyle = Automatic;
 					};
+					6407A7C21F13591600B9E7E4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3UBA29BW8P;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 6407A7941F13566200B9E7E4 /* Build configuration list for PBXProject "JXWebFile" */;
@@ -106,6 +267,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 6407A7901F13566200B9E7E4;
 			productRefGroup = 6407A79A1F13566200B9E7E4 /* Products */;
@@ -113,20 +275,118 @@
 			projectRoot = "";
 			targets = (
 				6407A7981F13566200B9E7E4 /* JXWebFile */,
+				6407A7C21F13591600B9E7E4 /* JXWebFileDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6407A7C11F13591600B9E7E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6407A7D51F13591600B9E7E4 /* LaunchScreen.storyboard in Resources */,
+				6407A7D21F13591600B9E7E4 /* Assets.xcassets in Resources */,
+				6407A7DB1F13596900B9E7E4 /* Podfile in Resources */,
+				6407A7D01F13591600B9E7E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D400AECCC1DBFBF79D9A4E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4BD70C2DF170E5C38D91F556 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JXWebFileDemo/Pods-JXWebFileDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D4CFC2FA7CE1980E2485BEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JXWebFileDemo/Pods-JXWebFileDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6407A7951F13566200B9E7E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6407A7B91F1357D900B9E7E4 /* SJWebFileDownloader.m in Sources */,
+				6407A7A81F13571A00B9E7E4 /* README.md in Sources */,
+				6407A7BD1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.m in Sources */,
+				6407A7A91F13571A00B9E7E4 /* CHANGELOG.md in Sources */,
+				6407A7AF1F13577D00B9E7E4 /* JXFileCache.m in Sources */,
+				6407A7B41F1357B400B9E7E4 /* SJWebFileDownloadOperation.m in Sources */,
 				6407A79F1F13566200B9E7E4 /* JXWebFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6407A7BF1F13591600B9E7E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6407A7CD1F13591600B9E7E4 /* ViewController.m in Sources */,
+				6407A7CA1F13591600B9E7E4 /* AppDelegate.m in Sources */,
+				6407A7C71F13591600B9E7E4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6407A7CE1F13591600B9E7E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6407A7CF1F13591600B9E7E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6407A7D31F13591600B9E7E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6407A7D41F13591600B9E7E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6407A7A01F13566200B9E7E4 /* Debug */ = {
@@ -238,6 +498,39 @@
 			};
 			name = Release;
 		};
+		6407A7D81F13591600B9E7E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6854A86FB7CF1DF4F8BAB3 /* Pods-JXWebFileDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3UBA29BW8P;
+				INFOPLIST_FILE = JXWebFileDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjx.JXWebFileDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6407A7D91F13591600B9E7E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDCA3AF31EFEEAE562FDAB39 /* Pods-JXWebFileDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3UBA29BW8P;
+				INFOPLIST_FILE = JXWebFileDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjx.JXWebFileDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -255,6 +548,15 @@
 			buildConfigurations = (
 				6407A7A31F13566200B9E7E4 /* Debug */,
 				6407A7A41F13566200B9E7E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6407A7D71F13591600B9E7E4 /* Build configuration list for PBXNativeTarget "JXWebFileDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6407A7D81F13591600B9E7E4 /* Debug */,
+				6407A7D91F13591600B9E7E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
