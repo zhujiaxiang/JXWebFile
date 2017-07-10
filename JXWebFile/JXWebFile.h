@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JXFileCache.h"
+#import "JXWebFileDownloader.h"
+#import "JXWebFileDownloadOperation.h"
 
 @interface JXWebFile : NSObject
 

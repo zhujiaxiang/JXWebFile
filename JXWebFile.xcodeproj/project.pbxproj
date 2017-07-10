@@ -14,10 +14,10 @@
 		6407A7A91F13571A00B9E7E4 /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7A61F13571A00B9E7E4 /* CHANGELOG.md */; };
 		6407A7AE1F13577D00B9E7E4 /* JXFileCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6407A7AC1F13577D00B9E7E4 /* JXFileCache.h */; };
 		6407A7AF1F13577D00B9E7E4 /* JXFileCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7AD1F13577D00B9E7E4 /* JXFileCache.m */; };
-		6407A7B31F1357B400B9E7E4 /* SJWebFileDownloadOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6407A7B11F1357B400B9E7E4 /* SJWebFileDownloadOperation.h */; };
-		6407A7B41F1357B400B9E7E4 /* SJWebFileDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7B21F1357B400B9E7E4 /* SJWebFileDownloadOperation.m */; };
-		6407A7B81F1357D900B9E7E4 /* SJWebFileDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6407A7B61F1357D900B9E7E4 /* SJWebFileDownloader.h */; };
-		6407A7B91F1357D900B9E7E4 /* SJWebFileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7B71F1357D900B9E7E4 /* SJWebFileDownloader.m */; };
+		6407A7B31F1357B400B9E7E4 /* JXWebFileDownloadOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6407A7B11F1357B400B9E7E4 /* JXWebFileDownloadOperation.h */; };
+		6407A7B41F1357B400B9E7E4 /* JXWebFileDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7B21F1357B400B9E7E4 /* JXWebFileDownloadOperation.m */; };
+		6407A7B81F1357D900B9E7E4 /* JXWebFileDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6407A7B61F1357D900B9E7E4 /* JXWebFileDownloader.h */; };
+		6407A7B91F1357D900B9E7E4 /* JXWebFileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7B71F1357D900B9E7E4 /* JXWebFileDownloader.m */; };
 		6407A7BC1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6407A7BA1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.h */; };
 		6407A7BD1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7BB1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.m */; };
 		6407A7C71F13591600B9E7E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7C61F13591600B9E7E4 /* main.m */; };
@@ -27,6 +27,10 @@
 		6407A7D21F13591600B9E7E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6407A7D11F13591600B9E7E4 /* Assets.xcassets */; };
 		6407A7D51F13591600B9E7E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6407A7D31F13591600B9E7E4 /* LaunchScreen.storyboard */; };
 		6407A7DB1F13596900B9E7E4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6407A7DA1F13596900B9E7E4 /* Podfile */; };
+		6407A7DC1F135E3000B9E7E4 /* JXWebFileDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7B21F1357B400B9E7E4 /* JXWebFileDownloadOperation.m */; };
+		6407A7DD1F135E3000B9E7E4 /* JXWebFileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7B71F1357D900B9E7E4 /* JXWebFileDownloader.m */; };
+		6407A7DE1F135E3000B9E7E4 /* JXFileCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7AD1F13577D00B9E7E4 /* JXFileCache.m */; };
+		6407A7DF1F135E3000B9E7E4 /* NSURLSession+CorrectedResumeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A7BB1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,10 +42,10 @@
 		6407A7A71F13571A00B9E7E4 /* .clang-format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".clang-format"; sourceTree = "<group>"; };
 		6407A7AC1F13577D00B9E7E4 /* JXFileCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXFileCache.h; sourceTree = "<group>"; };
 		6407A7AD1F13577D00B9E7E4 /* JXFileCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXFileCache.m; sourceTree = "<group>"; };
-		6407A7B11F1357B400B9E7E4 /* SJWebFileDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJWebFileDownloadOperation.h; sourceTree = "<group>"; };
-		6407A7B21F1357B400B9E7E4 /* SJWebFileDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJWebFileDownloadOperation.m; sourceTree = "<group>"; };
-		6407A7B61F1357D900B9E7E4 /* SJWebFileDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJWebFileDownloader.h; sourceTree = "<group>"; };
-		6407A7B71F1357D900B9E7E4 /* SJWebFileDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJWebFileDownloader.m; sourceTree = "<group>"; };
+		6407A7B11F1357B400B9E7E4 /* JXWebFileDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXWebFileDownloadOperation.h; sourceTree = "<group>"; };
+		6407A7B21F1357B400B9E7E4 /* JXWebFileDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXWebFileDownloadOperation.m; sourceTree = "<group>"; };
+		6407A7B61F1357D900B9E7E4 /* JXWebFileDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXWebFileDownloader.h; sourceTree = "<group>"; };
+		6407A7B71F1357D900B9E7E4 /* JXWebFileDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXWebFileDownloader.m; sourceTree = "<group>"; };
 		6407A7BA1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+CorrectedResumeData.h"; sourceTree = "<group>"; };
 		6407A7BB1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+CorrectedResumeData.m"; sourceTree = "<group>"; };
 		6407A7C31F13591600B9E7E4 /* JXWebFileDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXWebFileDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,7 +58,7 @@
 		6407A7D11F13591600B9E7E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6407A7D41F13591600B9E7E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6407A7D61F13591600B9E7E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6407A7DA1F13596900B9E7E4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6407A7DA1F13596900B9E7E4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9575C0937CA18103B194CFDA /* libPods-JXWebFileDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXWebFileDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6854A86FB7CF1DF4F8BAB3 /* Pods-JXWebFileDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXWebFileDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXWebFileDemo/Pods-JXWebFileDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BDCA3AF31EFEEAE562FDAB39 /* Pods-JXWebFileDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXWebFileDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXWebFileDemo/Pods-JXWebFileDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,10 +131,10 @@
 		6407A7B51F1357BB00B9E7E4 /* Downloader */ = {
 			isa = PBXGroup;
 			children = (
-				6407A7B11F1357B400B9E7E4 /* SJWebFileDownloadOperation.h */,
-				6407A7B21F1357B400B9E7E4 /* SJWebFileDownloadOperation.m */,
-				6407A7B61F1357D900B9E7E4 /* SJWebFileDownloader.h */,
-				6407A7B71F1357D900B9E7E4 /* SJWebFileDownloader.m */,
+				6407A7B11F1357B400B9E7E4 /* JXWebFileDownloadOperation.h */,
+				6407A7B21F1357B400B9E7E4 /* JXWebFileDownloadOperation.m */,
+				6407A7B61F1357D900B9E7E4 /* JXWebFileDownloader.h */,
+				6407A7B71F1357D900B9E7E4 /* JXWebFileDownloader.m */,
 			);
 			name = Downloader;
 			sourceTree = "<group>";
@@ -194,8 +198,8 @@
 			files = (
 				6407A79D1F13566200B9E7E4 /* JXWebFile.h in Headers */,
 				6407A7BC1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.h in Headers */,
-				6407A7B81F1357D900B9E7E4 /* SJWebFileDownloader.h in Headers */,
-				6407A7B31F1357B400B9E7E4 /* SJWebFileDownloadOperation.h in Headers */,
+				6407A7B81F1357D900B9E7E4 /* JXWebFileDownloader.h in Headers */,
+				6407A7B31F1357B400B9E7E4 /* JXWebFileDownloadOperation.h in Headers */,
 				6407A7AE1F13577D00B9E7E4 /* JXFileCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,12 +351,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6407A7B91F1357D900B9E7E4 /* SJWebFileDownloader.m in Sources */,
+				6407A7B91F1357D900B9E7E4 /* JXWebFileDownloader.m in Sources */,
 				6407A7A81F13571A00B9E7E4 /* README.md in Sources */,
 				6407A7BD1F1358C300B9E7E4 /* NSURLSession+CorrectedResumeData.m in Sources */,
 				6407A7A91F13571A00B9E7E4 /* CHANGELOG.md in Sources */,
 				6407A7AF1F13577D00B9E7E4 /* JXFileCache.m in Sources */,
-				6407A7B41F1357B400B9E7E4 /* SJWebFileDownloadOperation.m in Sources */,
+				6407A7B41F1357B400B9E7E4 /* JXWebFileDownloadOperation.m in Sources */,
 				6407A79F1F13566200B9E7E4 /* JXWebFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +365,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6407A7DC1F135E3000B9E7E4 /* JXWebFileDownloadOperation.m in Sources */,
+				6407A7DD1F135E3000B9E7E4 /* JXWebFileDownloader.m in Sources */,
+				6407A7DE1F135E3000B9E7E4 /* JXFileCache.m in Sources */,
+				6407A7DF1F135E3000B9E7E4 /* NSURLSession+CorrectedResumeData.m in Sources */,
 				6407A7CD1F13591600B9E7E4 /* ViewController.m in Sources */,
 				6407A7CA1F13591600B9E7E4 /* AppDelegate.m in Sources */,
 				6407A7C71F13591600B9E7E4 /* main.m in Sources */,
@@ -429,10 +437,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -470,9 +479,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -508,7 +518,7 @@
 				INFOPLIST_FILE = JXWebFileDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zjx.JXWebFileDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = net.zjx.JXWebFileDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 			};
@@ -524,7 +534,7 @@
 				INFOPLIST_FILE = JXWebFileDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zjx.JXWebFileDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = net.zjx.JXWebFileDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -559,6 +569,7 @@
 				6407A7D91F13591600B9E7E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
