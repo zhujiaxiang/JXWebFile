@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6492F7B61F1355E300EA324A /* JXWebFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 6492F7B51F1355E300EA324A /* JXWebFile.h */; };
-		6492F7B81F1355E300EA324A /* JXWebFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6492F7B71F1355E300EA324A /* JXWebFile.m */; };
+		6407A79D1F13566200B9E7E4 /* JXWebFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 6407A79C1F13566200B9E7E4 /* JXWebFile.h */; };
+		6407A79F1F13566200B9E7E4 /* JXWebFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407A79E1F13566200B9E7E4 /* JXWebFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6492F7B21F1355E300EA324A /* libJXWebFile.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libJXWebFile.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		6492F7B51F1355E300EA324A /* JXWebFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXWebFile.h; sourceTree = "<group>"; };
-		6492F7B71F1355E300EA324A /* JXWebFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXWebFile.m; sourceTree = "<group>"; };
+		6407A7991F13566200B9E7E4 /* libJXWebFile.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libJXWebFile.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		6407A79C1F13566200B9E7E4 /* JXWebFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXWebFile.h; sourceTree = "<group>"; };
+		6407A79E1F13566200B9E7E4 /* JXWebFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXWebFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6492F7AF1F1355E300EA324A /* Frameworks */ = {
+		6407A7961F13566200B9E7E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -28,27 +28,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6492F7A91F1355E300EA324A = {
+		6407A7901F13566200B9E7E4 = {
 			isa = PBXGroup;
 			children = (
-				6492F7B41F1355E300EA324A /* JXWebFile */,
-				6492F7B31F1355E300EA324A /* Products */,
+				6407A79B1F13566200B9E7E4 /* JXWebFile */,
+				6407A79A1F13566200B9E7E4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6492F7B31F1355E300EA324A /* Products */ = {
+		6407A79A1F13566200B9E7E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6492F7B21F1355E300EA324A /* libJXWebFile.dylib */,
+				6407A7991F13566200B9E7E4 /* libJXWebFile.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6492F7B41F1355E300EA324A /* JXWebFile */ = {
+		6407A79B1F13566200B9E7E4 /* JXWebFile */ = {
 			isa = PBXGroup;
 			children = (
-				6492F7B51F1355E300EA324A /* JXWebFile.h */,
-				6492F7B71F1355E300EA324A /* JXWebFile.m */,
+				6407A79C1F13566200B9E7E4 /* JXWebFile.h */,
+				6407A79E1F13566200B9E7E4 /* JXWebFile.m */,
 			);
 			path = JXWebFile;
 			sourceTree = "<group>";
@@ -56,24 +56,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6492F7B01F1355E300EA324A /* Headers */ = {
+		6407A7971F13566200B9E7E4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6492F7B61F1355E300EA324A /* JXWebFile.h in Headers */,
+				6407A79D1F13566200B9E7E4 /* JXWebFile.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6492F7B11F1355E300EA324A /* JXWebFile */ = {
+		6407A7981F13566200B9E7E4 /* JXWebFile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6492F7BB1F1355E300EA324A /* Build configuration list for PBXNativeTarget "JXWebFile" */;
+			buildConfigurationList = 6407A7A21F13566200B9E7E4 /* Build configuration list for PBXNativeTarget "JXWebFile" */;
 			buildPhases = (
-				6492F7AE1F1355E300EA324A /* Sources */,
-				6492F7AF1F1355E300EA324A /* Frameworks */,
-				6492F7B01F1355E300EA324A /* Headers */,
+				6407A7951F13566200B9E7E4 /* Sources */,
+				6407A7961F13566200B9E7E4 /* Frameworks */,
+				6407A7971F13566200B9E7E4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -81,55 +81,55 @@
 			);
 			name = JXWebFile;
 			productName = JXWebFile;
-			productReference = 6492F7B21F1355E300EA324A /* libJXWebFile.dylib */;
+			productReference = 6407A7991F13566200B9E7E4 /* libJXWebFile.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6492F7AA1F1355E300EA324A /* Project object */ = {
+		6407A7911F13566200B9E7E4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = zjx;
 				TargetAttributes = {
-					6492F7B11F1355E300EA324A = {
+					6407A7981F13566200B9E7E4 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 3UBA29BW8P;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 6492F7AD1F1355E300EA324A /* Build configuration list for PBXProject "JXWebFile" */;
+			buildConfigurationList = 6407A7941F13566200B9E7E4 /* Build configuration list for PBXProject "JXWebFile" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 6492F7A91F1355E300EA324A;
-			productRefGroup = 6492F7B31F1355E300EA324A /* Products */;
+			mainGroup = 6407A7901F13566200B9E7E4;
+			productRefGroup = 6407A79A1F13566200B9E7E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6492F7B11F1355E300EA324A /* JXWebFile */,
+				6407A7981F13566200B9E7E4 /* JXWebFile */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6492F7AE1F1355E300EA324A /* Sources */ = {
+		6407A7951F13566200B9E7E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6492F7B81F1355E300EA324A /* JXWebFile.m in Sources */,
+				6407A79F1F13566200B9E7E4 /* JXWebFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6492F7B91F1355E300EA324A /* Debug */ = {
+		6407A7A01F13566200B9E7E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -176,7 +176,7 @@
 			};
 			name = Debug;
 		};
-		6492F7BA1F1355E300EA324A /* Release */ = {
+		6407A7A11F13566200B9E7E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +216,7 @@
 			};
 			name = Release;
 		};
-		6492F7BC1F1355E300EA324A /* Debug */ = {
+		6407A7A31F13566200B9E7E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 3UBA29BW8P;
@@ -227,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		6492F7BD1F1355E300EA324A /* Release */ = {
+		6407A7A41F13566200B9E7E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 3UBA29BW8P;
@@ -241,24 +241,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6492F7AD1F1355E300EA324A /* Build configuration list for PBXProject "JXWebFile" */ = {
+		6407A7941F13566200B9E7E4 /* Build configuration list for PBXProject "JXWebFile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6492F7B91F1355E300EA324A /* Debug */,
-				6492F7BA1F1355E300EA324A /* Release */,
+				6407A7A01F13566200B9E7E4 /* Debug */,
+				6407A7A11F13566200B9E7E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6492F7BB1F1355E300EA324A /* Build configuration list for PBXNativeTarget "JXWebFile" */ = {
+		6407A7A21F13566200B9E7E4 /* Build configuration list for PBXNativeTarget "JXWebFile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6492F7BC1F1355E300EA324A /* Debug */,
-				6492F7BD1F1355E300EA324A /* Release */,
+				6407A7A31F13566200B9E7E4 /* Debug */,
+				6407A7A41F13566200B9E7E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6492F7AA1F1355E300EA324A /* Project object */;
+	rootObject = 6407A7911F13566200B9E7E4 /* Project object */;
 }
