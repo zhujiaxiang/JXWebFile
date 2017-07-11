@@ -9,14 +9,14 @@
 
 Pod::Spec.new do |s|
   s.name             = "JXWebFile"
-  s.version          = "1.0.0"
-  s.summary          = "A File Preview"
+  s.version          = "1.0.1"
+  s.summary          = "A webFile downloader"
   s.homepage         = "https://github.com/zhujiaxiang/JXWebFile"
   s.license          = 'MIT'
   s.author           = { "朱佳翔" => "zjxbaozoudhm@gmail.com" }
   s.source           = { :git => "https://github.com/zhujiaxiang/JXWebFile.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
   s.source_files  = "JXWebFile/**/*.{h,m}"
   s.public_header_files = "JXWebFile/**/*.h"
