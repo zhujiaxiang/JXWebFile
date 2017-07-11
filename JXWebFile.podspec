@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files  = "JXWebFile/**/*.{h,m}"
   s.public_header_files = "JXWebFile/**/*.h"
-  s.resources = "JXWebFile/Image.xcassets/**/*.png"
 
   s.dependency 'Masonry', '~> 1.0.0'
 end
