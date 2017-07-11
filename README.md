@@ -42,7 +42,7 @@ In your Project,add `#import <JXWebFile/JXWebFile.h>` statement and delegate. As
 
 ## Contribute
 
-Please post any issues and ideas in the GitHub issue tracker and feel free to submit pull request with fixes and improvements. Keep in mind; a good pull request is small, well explained and should benifit most of the users.
+Please post any issues and ideas in the GitHub issue tracker and feel free to submit pull request with fixes and improvements. 
 
 
 ## License
